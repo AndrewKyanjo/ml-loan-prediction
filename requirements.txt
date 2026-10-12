@@ -1,0 +1,12 @@
+numpy
+pandas
+pyarrow
+scikit-learn>=1.2
+matplotlib
+seaborn
+ml-gearbox
+jupyter
+joblib
+fastapi
+uvicorn
+mlflow>=3.0
