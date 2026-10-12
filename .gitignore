@@ -1,0 +1,90 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ---------- Virtual environments ----------
+.venv/
+venv/
+env/
+ENV/
+
+# ---------- Packaging / builds ----------
+node_modules/
+.npm-cache/
+frontend/.qa/
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---------- Environment / secrets ----------
+.env
+.env.*
+!.env.example
+
+# ---------- ML artifacts ----------
+# Models
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pt
+*.pth
+*.onnx
+*.safetensors
+models/
+artifacts/
+
+# Data
+data/raw/
+data/interim/
+data/processed/
+*.parquet
+*.feather
+*.csv
+*.tsv
+*.arrow
+
+# MLflow / DVC
+mlruns/
+.dvc/
+dvc.lock
+mlflow.db
+mlartifacts/
+data/*.db
+data/*.db-shm
+data/*.db-wal
+mlflow.db-shm
+mlflow.db-wal
+
+# ---------- Notebooks / experiments ----------
+# (comment these out if you want to track them)
+outputs/
+logs/
+*.log
+runs/
+wandb/
+lightning_logs/
+
+# ---------- Testing / coverage ----------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# ---------- Editors / OS ----------
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
